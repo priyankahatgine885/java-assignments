@@ -78,7 +78,6 @@ public class Example03 {
         }
         return employeeMap;
     }
-
     public static void printEmployeeMap(Map<String, List<Employee>> employeeMap) {
         for (String key : employeeMap.keySet()) {
             List<Employee> employee = employeeMap.get(key);
